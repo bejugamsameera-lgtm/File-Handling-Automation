@@ -1,38 +1,27 @@
-## --- Python File Handling and Automation ---
 
-1. Creating and writing to sample.txt...
-sample.txt created successfully.
 
-2. Reading from sample.txt...
-File Content:
+# Python File Handling and Automation
 
-    Hello, this is a sample text file.
-    This file is used to demonstrate Python file handling.
+## Objective
+This project demonstrates Python file handling, automation logic, and exception handling.
 
-4. Creating and writing to data.csv...
-data.csv created successfully.
+## Features
+- Read and write text files (`.txt`)
+- Read and write CSV files (`.csv`)
+- Rename files automatically
+- Move files to another folder
+- Delete files
+- Handle errors using `try-except`
 
-5. Reading from data.csv...
-CSV Data:
+## Technologies Used
+- Python 3
+- Built-in Python modules:
+  - `os`
+  - `csv`
+  - `shutil`
 
-      ['ID', 'Name', 'Course']
-
-      ['1', 'Sameera', 'Python']
-
-      ['2', 'Haritha', 'Machine Learning']
-
-      ['3', 'Anitha', 'Web Development']
-
-6. Renaming sample.txt to notes.txt...
-File renamed successfully.
-
-7. Moving notes.txt to backup/ folder...
-File moved successfully.
-
-8. Deleting data.csv...
-data.csv deleted successfully.
-
---- Program completed successfully! ---
+## Project Files
+- `file_automation.py` – Main Python script
 ## Final Folder Structure
 File-handling-automation/      
 │
